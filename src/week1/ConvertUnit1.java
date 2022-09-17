@@ -1,14 +1,12 @@
-import java.util.Scanner;
-
+package week1;
+//Viết chương trình đổi đơn vị từ m -> inches
+// 1.2
 public class ConvertUnit1 {
 	public static void main(String[] agrs)
-	{
-		
-				double x = Double.parseDouble(agrs[0]);
-				double y = convertUnit(x);
-				System.out.println(y);
-				
-	
+	{	
+		double x = Double.parseDouble(agrs[0]);
+		double y = convertUnit(x);
+		System.out.println(y);
 	}
 	
 	public static double convertUnit(double x) {
